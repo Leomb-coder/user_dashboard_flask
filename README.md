@@ -1,5 +1,5 @@
 # user_dashboard_flask
-Dashboard for managing user accounts and authentication
+Dashboard for managing user accounts and contacts with authentication
 
 ## Technologies
 ### Backend
