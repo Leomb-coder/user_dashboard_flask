@@ -20,13 +20,7 @@ def get_connection():
 
         print('Connected!')
         print(version)
+        return conn
 
     except psycopg2.Error as e:
         print(f'Database connection Error: {e}')
-
-    finally:
-        if cursor:
-            cursor.close()
-
-        if conn:
-            conn.close()
